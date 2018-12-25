@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+    ul.ui-autocomplete {
+        z-index: 1100;
+    }
+    
+    div#listar-especifico table.info-usuario{
+        width: 100%;
+        background-color: #ededed ;
+        border-radius: 2px;
+    }
+    
+    div#listar-especifico table.info-usuario td {
+        padding: 5px;
+        border: solid #d2d2d2 2px;
+        border-radius: 2px;
+    }
+
+table.listar {
+    width: 80%;
+    text-align: center;
+    border-bottom: solid #d2d2d2 1px;
+    background-color: #ededed ;
+    border-radius: 2px;
+    table-layout:fixed;
+    }
+
+    table.listar tr.linha-um{
+        border-bottom: solid #d2d2d2 2px;
+    }
+
+    #cadastros
+    {
+        background-color: #d2d2d2;
+    }
+
+    table.listar tr:hover {
+        background-color: rgba(30, 48, 93, .1);
+    }
+    
+    table.listar td {
+        padding: 5px;
+        border: solid #d2d2d2 1px;
+        height: 37px;
+    }
+    
+    table.listar td h5 {
+        padding-top: 7px;
+        margin: 0;
+    }
+
+    #menu{
+        margin-left: 8%;
+    }
+    
+    .logo{
+        margin-top: 15px;
+        float: none;
+        width: 150px;
+    }
+    
+    .circulacao{
+    width: 100%;
+    }
+
+    .circulacao td{
+    padding-top: 10px;
+    }
+
+    body {
+        margin:0;
+        padding:0;
+        line-height: 1.4em;
+        color: #000;
+        margin-bottom: 20px;
+    }
+    
+    .header-layout {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-size: 24px;
+    text-align: left;
+    position: relative;
+    padding: 30px 15px;
+    text-shadow: 0 1px 0 rgba(0,0,0,.1);
+    background-image: -webkit-linear-gradient(top, #EDA804 0, #EDA804 100%);
+    background-repeat: repeat-x;
+    }
